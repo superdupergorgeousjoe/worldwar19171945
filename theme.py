@@ -24,8 +24,26 @@ CSS = """
 main,
 .block-container,
 .css-1d391kg,
-.css-1v3fvcr {
+.css-1v3fvcr,
+.js-zxivmr,
+.css-1fcmfeb,
+.css-18e3th9,
+.css-1y0tads,
+.css-1q1n0ol,
+.css-1vhylqn,
+.css-1rnw5n3,
+.css-1cmp82j,
+.css-za1hgf {
     background: transparent !important;
+    color: #efeaff !important;
+}
+header,
+[data-testid='stHeader'],
+[data-testid='stToolbar'],
+[data-testid='stSidebar'] {
+    background: rgba(19, 16, 41, 0.92) !important;
+}
+.stApp, header, [data-testid='stHeader'], [data-testid='stToolbar'], [data-testid='stSidebar'] {
     color: #efeaff !important;
 }
 h1, h2, h3 { font-family: 'Gowun Batang', serif !important; color: #f3edff !important; letter-spacing: 0.02em; }
