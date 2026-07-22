@@ -20,6 +20,14 @@ CSS = """
         linear-gradient(160deg, #131029 0%, #1d1638 45%, #172042 100%);
     color: #efeaff;
 }
+[data-testid='stAppViewContainer'],
+main,
+.block-container,
+.css-1d391kg,
+.css-1v3fvcr {
+    background: transparent !important;
+    color: #efeaff !important;
+}
 h1, h2, h3 { font-family: 'Gowun Batang', serif !important; color: #f3edff !important; letter-spacing: 0.02em; }
 p, li, label, .stMarkdown { font-family: 'Noto Sans KR', sans-serif; color: #ddd6f3; }
 
@@ -93,4 +101,3 @@ def apply_theme():
 def card(html_inner):
     """유리 카드 안에 내용 넣기."""
     st.markdown(f'<div class="dream-card">{html_inner}</div>', unsafe_allow_html=True)
-    
